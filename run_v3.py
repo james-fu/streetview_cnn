@@ -54,5 +54,5 @@ if __name__ == "__main__":
 
         # TODO Step 3 CLASSIFICATION
 
-        final_image = classification.run(img_file=img_file, predictions=predictions, \
+        final_image = classification.detect_and_classify(img_file=img_file, predictions=predictions, \
                                          wndw_loc=wndw_loc, model = CNNmodel)
