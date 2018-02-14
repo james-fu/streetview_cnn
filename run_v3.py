@@ -20,7 +20,7 @@ if __name__ == "__main__":
             """ Step 1 Preprocessing """
 
             numpy_save = False
-            model_file = "VGG_Transfer_model.h5"
+            model_file = "models/VGG_Transfer_model.h5"
             weights_file = None
 
 

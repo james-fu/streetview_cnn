@@ -25,7 +25,7 @@ def CNN_model(test_dataset, model_file, weights_file = None):
 
 if __name__ == "__main__":
 
-    model_file = "VGG_Transfer_model.h5"
+    model_file = "models/VGG_Transfer_model.h5"
     img_file = 'samples/report.png'
 
     save_numpy = False
