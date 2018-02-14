@@ -5,7 +5,7 @@ from scipy import stats
 
 def detect_and_classify(img_file, predictions, wndw_loc, model):
 
-    output_file = 'graded_images/' + img_file
+    output_file = 'output/' + img_file
     accuracy_threshold = 0.85 # Threshold for CNN prediction confidence level
 
 
